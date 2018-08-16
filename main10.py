@@ -14,7 +14,7 @@
 # 2. Run "python main.py".
 # 3. Navigate the browser to the local webpage.
 from flask import Flask, render_template, Response
-from camera import VideoCamera
+from camera10 import VideoCamera
 
 app = Flask(__name__)
 
@@ -34,4 +34,4 @@ def video_feed():
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(port=5001,host='0.0.0.0', debug=True)
+    app.run(port=5010,host='0.0.0.0', debug=True)

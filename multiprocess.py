@@ -1,0 +1,1 @@
+python3.6 main.py & python3.6 main2.py & python3.6 main3.py & python3.6 main4.py & python3.6 main5.py & python3.6 main6.py & python3.6 main7.py & python3.6 main8.py & python3.6 main9.py & python3.6 main10.py
